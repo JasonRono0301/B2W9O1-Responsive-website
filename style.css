@@ -19,23 +19,25 @@ header{
    float: right;
    margin-right: 2rem;
    width: 40%;
-   height: 3em;
+
 }
 
 .slideOne{
     width: 100%;
 }
 
-.first{
-    margin: 2rem 0 1rem 1rem ;
-    font-size: 1.4em;
+i{
+    font-size: 1.5em;
 }
 
-.first p{
+h2{
+    margin: 2rem 0 1rem 1rem;
+    font-size: 1.4em;
     display: inline-block;
 }
 
-.paragraaf1 p{
+
+.paragraaf1 .paragraaf2 p{
     float: left;
     margin-top: 1rem;
     font-size: 1em;
