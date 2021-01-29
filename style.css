@@ -48,12 +48,17 @@ p{
 }
 
 .paragraaf1 button{
-    margin-left: 20%;
     font-size: 2em;
-    width: 60%;
+    width: 100%;
     height: 2em;
     background-color: rgb(255, 166, 0);
     border: transparent;
+}
+
+button p{
+    position: static;
+    left: 0;
+    padding-left: 2rem;
 }
 
 .youtube{
@@ -66,4 +71,10 @@ footer{
     background-color: yellow;
     border: 2px solid  rgb(158, 158, 32);
     text-align: center;
+}
+
+@media only screen and (min-width: 711px){
+    *{
+        display: none;
+    }
 }
